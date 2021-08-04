@@ -6,6 +6,8 @@ Gem::Specification.new do |s|
   s.license       = 'CC0-1.0'
   s.authors       = ['Zhiwei Chen']
   s.email         = ['zhiweichen.cn@gmail.com']
+  s.homepage      = 'https://zhiweichen0012.github.io'
+  s.summary       = 'Minimal Light is a Jekyll theme for academic Github Pages'
 
   s.files         = `git ls-files -z`.split("\x0").select do |f|
     f.match(%r{^((_includes|_layouts|_sass|assets)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
