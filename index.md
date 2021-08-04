@@ -81,7 +81,7 @@ I was advised by Bo Yang. I mainly conducted research on neural network compress
 ## Selected Project Experience
 
 - **Tongan Xueliang project**<br>
-<img src="./assets/img/project1.gif" style="width:280px; height:180px; margin:10px 10px 0 -15px; float: left;"/>
+<img class="pro_img" src="./assets/img/project1.gif" style="width:280px; height:180px; margin:10px 10px 0 -15px; float: left;"/>
 <p style="margin-top:-15px; word-break: keep-all;word-wrap: break-word; ">
 &ensp;&ensp;This project provides a plug and play intelligent video analysis platform for ordinary HD cameras. The product carries out real-time detection for six categories of people, bicycle, motorcycle, truck, car and bus, including intelligent recognition and analysis of face and license plate. It adopts a high-temperature and wear-resistant compact material casting shell, which can be remotely connected or directly connected with the camera to adapt to any environment deployment. For the cost, a low-cost ordinary HD camera with our product can realize all functions of a high-cost intelligent camera, saving the time and cost of large-scale deployment.
 </p>
