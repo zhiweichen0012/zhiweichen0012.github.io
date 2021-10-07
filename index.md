@@ -98,8 +98,8 @@ I was advised by Bo Yang. I mainly conducted research on neural network compress
 </p>
 
 
-<div style="clear:both;"></div>
-<br>
+<!-- <div style="clear:both;"></div>
+<br> -->
 
 ## Selected Awards and Scholarships
 
