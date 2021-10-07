@@ -2,9 +2,9 @@
 layout: homepage
 ---
 
-## About Me 👦
+## About Me 👨🏻‍🎓
 
-I am currently a first-year Ph.D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
+I am currently a second-year Ph.D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
 <br>
 My supervisor is [Prof. Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/).
 
@@ -47,6 +47,13 @@ Recently, I focus on:
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2021.
   [[PDF](https://openaccess.thecvf.com/content/CVPR2021/papers/Shen_Toward_Joint_Thing-and-Stuff_Mining_for_Weakly_Supervised_Panoptic_Segmentation_CVPR_2021_paper.pdf)]
 
+- Containing the Transmission of COVID-19: A Modeling Study in 160 Countries.
+  <br>
+  Jia Rui, Yan Niu, Qiupeng Wang, Wei Zhang, **Zhiwei Chen**, Zeyu Zhao, Shengnan Lin, Yuanzhao Zhu, Yao Wang, Jingwen Xu, Xingchun Liu, Meng Yang, Wei Zheng, Kaixin Chen, Yilan Xia, Lijuan Xu, Rongrong Ji, Taisong Jin, Yong Chen, Benhua Zhao, Yanhua Su, Tie Song, Guoqing Hu<sup>✉️</sup>, Tianmu Chen<sup>✉️</sup>.
+  <br>
+  Frontiers in medicine, 2021.
+  [[PDF](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8416347/pdf/fmed-08-701836.pdf)]
+
 - UWSOD: Toward Fully-Supervised-Level Capacity Weakly Supervised Object Detection.
   <br>
   Yunhang Shen, Rongrong Ji<sup>✉️</sup>, **Zhiwei Chen**, Yongjian Wu, Feiyue Huang.
@@ -71,8 +78,8 @@ Recently, I focus on:
 
 ## Internship Experience
 
-- **Tencent Youtu** [ ⌛ May 2021 – Present | 📍 Shanghai, China ] <br>
-I was advised by Changan Wang. I mainly conducted research on weakly supervised object localization.
+- **Tencent Youtu** [ ⌛ May 2021 – Sep. 2021 | 📍 Shanghai, China ] <br>
+I was advised by Changan Wang. I mainly conducted research on weakly supervised object localization. We proposed a novel framework built upon the transformer, which targets at enhancing the local perception capability of global features among long-range feature dependencies.
 
 - **Tencent Youtu** [ ⌛ Oct. 2019 – Jan. 2020 | 📍 Shanghai, China ] <br>
 I was advised by Bo Yang. I mainly conducted research on neural network compression and quantization. We formulated a trackable optimization problem for quantization error in every single layer. By minimizing the quantization error, the optimal quantization boundary can be found and self-adapt to the distributions of activations in different layers.
@@ -81,8 +88,12 @@ I was advised by Bo Yang. I mainly conducted research on neural network compress
 ## Selected Project Experience
 
 - **Tongan Xueliang project**<br>
-<img class="pro_img" src="./assets/img/project1.gif" style="width:280px; height:180px; margin:10px 10px 0 -15px; float: left;"/>
-<p style="margin-top:-15px; word-break: keep-all;word-wrap: break-word; ">
+<div style="text-align: center;">
+<img class="pro_img" src="./assets/img/project1.gif" style="width:280px; height:180px; "/>
+<img class="pro_img" src="./assets/img/project1_1.jpg" style="width:280px; height:180px; "/>
+<img class="pro_img" src="./assets/img/project1_2.jpg" style="width:280px; height:180px; "/>
+</div>
+<p style="padding:0 15px; word-break: keep-all;word-wrap: break-word; ">
 &ensp;&ensp;This project provides a plug and play intelligent video analysis platform for ordinary HD cameras. The product carries out real-time detection for six categories of people, bicycle, motorcycle, truck, car and bus, including intelligent recognition and analysis of face and license plate. It adopts a high-temperature and wear-resistant compact material casting shell, which can be remotely connected or directly connected with the camera to adapt to any environment deployment. For the cost, a low-cost ordinary HD camera with our product can realize all functions of a high-cost intelligent camera, saving the time and cost of large-scale deployment.
 </p>
 
