@@ -89,9 +89,9 @@ I was advised by Bo Yang. I mainly conducted research on neural network compress
 
 - **Tongan Xueliang project**<br>
 <div style="text-align: center;">
-<img class="pro_img" src="./assets/img/project1.gif" style="width:280px; height:180px; "/>
-<img class="pro_img" src="./assets/img/project1_1.jpg" style="width:280px; height:180px; "/>
-<img class="pro_img" src="./assets/img/project1_2.jpg" style="width:280px; height:180px; "/>
+<img class="pro_img" src="./assets/img/project1.gif" style="width:250px; height:150px; "/>
+<img class="pro_img" src="./assets/img/project1_1.jpg" style="width:250px; height:150px; "/>
+<img class="pro_img" src="./assets/img/project1_2.jpg" style="width:250px; height:150px; "/>
 </div>
 <p style="padding:0 15px; word-break: keep-all;word-wrap: break-word; ">
 &ensp;&ensp;This project provides a plug and play intelligent video analysis platform for ordinary HD cameras. The product carries out real-time detection for six categories of people, bicycle, motorcycle, truck, car and bus, including intelligent recognition and analysis of face and license plate. It adopts a high-temperature and wear-resistant compact material casting shell, which can be remotely connected or directly connected with the camera to adapt to any environment deployment. For the cost, a low-cost ordinary HD camera with our product can realize all functions of a high-cost intelligent camera, saving the time and cost of large-scale deployment.
