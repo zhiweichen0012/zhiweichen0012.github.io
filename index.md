@@ -10,7 +10,7 @@ My supervisor is [Prof. Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/).
 
 ## Research Interests
 
-My research interests are in Computer Vison, Multimedia and Machine Learning.
+My research interests are in Computer Vision, Multimedia and Machine Learning.
 <br>
 Recently, I focus on:
 
