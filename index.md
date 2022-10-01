@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me 👨🏻‍🎓
 
-I am currently a second-year Ph. D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
+I am currently a third-year Ph. D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
 <br>
 My supervisor is [Prof. Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/).
 
