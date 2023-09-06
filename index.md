@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me 👨🏻‍🎓
 
-I am currently a third-year Ph. D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
+I am currently a fourth-year Ph. D student in [Media Analytics and Computing Lab (MAC)](https://mac.xmu.edu.cn/), Artificial Intelligence Department, School of Informatics, Xiamen University, China.
 <br>
 My supervisor is [Prof. Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/).
 
@@ -19,12 +19,19 @@ Recently, I focus on:
 
 ## Publications
 
+* Category-aware Allocation Transformer for Weakly Supervised Object Localization.
+  <br>
+  **Zhiwei Chen**, Jinren Ding, Liujuan Cao<sup>✉️</sup>, Yunhang Shen, Guannan Jiang, Rongrong Ji.
+  <br>
+  International Conference on Computer Vision (ICCV), 2023.
+  [[PDF]()]
+
 * LCTR: On Awakening the Local Continuity of Transformer for Weakly Supervised Object Localization.
   <br>
   **Zhiwei Chen**, Changan Wang, Yabiao Wang, Guannan Jiang, Yunhang Shen, Ying Tai, Chengjie Wang, Wei Zhang, Liujuan Cao<sup>✉️</sup>.
   <br>
   Association for the Advancement of Artificial Intelligence (AAAI), 2022.
-  [[PDF](https://arxiv.org/pdf/2112.05291)]
+  [[PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiY37Kd9pWBAxUCBYgKHQAWA5MQFnoECA8QAQ&url=https%3A%2F%2Fojs.aaai.org%2Findex.php%2FAAAI%2Farticle%2Fview%2F19918%2F19677&usg=AOvVaw01M2dPY6NhBRi_QBkMHyAs&opi=89978449)]
 
 * E<sup>2</sup>Net : Excitative-Expansile Learning for Weakly Supervised Object Localization.
   <br>
@@ -45,7 +52,7 @@ Recently, I focus on:
   Yunhang Shen, Liujuan Cao<sup>✉️</sup>, **Zhiwei Chen**, Baochang Zhang, Chi Su, Yongjian Wu, Feiyue Huang, Rongrong Ji.
   <br>
   IEEE International Conference on Computer Vision (ICCV), 2021.
-  [[PDF](https://openaccess.thecvf.com/content/WACV2021/papers/Hwang_Weakly_Supervised_Instance_Segmentation_by_Deep_Community_Learning_WACV_2021_paper.pdf)]
+  [[PDF](https://openaccess.thecvf.com/content/ICCV2021/papers/Shen_Parallel_Detection-and-Segmentation_Learning_for_Weakly_Supervised_Instance_Segmentation_ICCV_2021_paper.pdf)]
 
 * Toward Joint Thing-and-Stuff Mining for Weakly Supervised Panoptic Segmentation.
   <br>
@@ -81,6 +88,13 @@ Recently, I focus on:
   <br>
   IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020.
   [[PDF](https://openaccess.thecvf.com/content_CVPR_2020/papers/Shen_Noise-Aware_Fully_Webly_Supervised_Object_Detection_CVPR_2020_paper.pdf)]
+
+* Hierarchical Focused Feature Pyramid Network for Small Object Detection.
+  <br>
+  Siwei Wang, **Zhiwei Chen**, Haoyang Ding, Liujuan Cao<sup>✉️</sup>.
+  <br>
+  The 6th Chinese Conference on Pattern Recognition and Computer Vision (PRCV), 2023.
+  [[PDF]()]
 
 ## Internship Experience
 
