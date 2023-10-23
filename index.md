@@ -24,7 +24,7 @@ Recently, I focus on:
   **Zhiwei Chen**, Jinren Ding, Liujuan Cao<sup>✉️</sup>, Yunhang Shen, Guannan Jiang, Rongrong Ji.
   <br>
   International Conference on Computer Vision (ICCV), 2023.
-  [[PDF]()]
+  [[PDF](https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Category-aware_Allocation_Transformer_for_Weakly_Supervised_Object_Localization_ICCV_2023_paper.pdf)]
 
 * LCTR: On Awakening the Local Continuity of Transformer for Weakly Supervised Object Localization.
   <br>
