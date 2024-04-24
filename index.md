@@ -19,6 +19,13 @@ Recently, I focus on:
 
 ## Publications
 
+* Adaptive Zone Learning for Weakly Supervised Object Localization.
+  <br>
+  **Zhiwei Chen**, Siwei Wang, Liujuan Cao<sup>✉️</sup>, Yunhang Shen, Rongrong Ji.
+  <br>
+  IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2024.
+  [[PDF]()]
+
 * Category-aware Allocation Transformer for Weakly Supervised Object Localization.
   <br>
   **Zhiwei Chen**, Jinren Ding, Liujuan Cao<sup>✉️</sup>, Yunhang Shen, Guannan Jiang, Rongrong Ji.
