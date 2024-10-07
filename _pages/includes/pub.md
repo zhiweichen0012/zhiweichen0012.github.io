@@ -57,7 +57,7 @@
 
 **Zhiwei Chen**, Liujuan Cao, Yunhang Shen, Feihong Lian, Yongjian Wu, Rongrong Ji
 
-*ACM International Conference on Multimedia (**ACM MM**), 2022*
+*ACM International Conference on Multimedia (**ACM MM**), 2021*
 
 [[Paper]](https://dl.acm.org/doi/abs/10.1145/3474085.3475211) \|
 [[Code]](https://github.com/zhiweichen0012/E2Net)
