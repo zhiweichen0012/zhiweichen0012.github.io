@@ -84,7 +84,7 @@ Yunhang Shen, Liujuan Cao, **Zhiwei Chen**, Baochang Zhang, Chi Su, Yongjian Wu,
 <!-- ******************* paper end ******************* -->
 
 <!-- ******************* paper begin ******************* -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2021</div><img src='images/papers/cvpr21_jtsm.png' alt="cvpr21_jtsm"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2021</div><img src='images/papers/cvpr21_jtsm.png' alt="cvpr21_jtsm"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Toward Joint Thing-and-Stuff Mining for Weakly Supervised Panoptic Segmentation**
