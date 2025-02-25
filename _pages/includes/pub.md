@@ -1,6 +1,22 @@
 # 📝 Publications
 
 <!-- ******************* paper begin ******************* -->
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">TPAMI 2025</div><img src='images/papers/tpami25_cdtr.png' alt="tpami25_cdtr"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CLIP-Driven Transformer for Weakly Supervised Object Localization**
+
+**Zhiwei Chen**, Yunhang Shen, Liujuan Cao, Shengchuan Zhang, Rongrong Ji
+
+*Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025*
+
+[[Paper]]() \|
+[[Code]](https://github.com/zhiweichen0012/CDTR)
+</div>
+</div>
+<!-- ******************* paper end ******************* -->
+
+<!-- ******************* paper begin ******************* -->
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">TNNLS 2024</div><img src='images/papers/tnnls24_azl.png' alt="tnnls24_azl"></div></div>
 <div class='paper-box-text' markdown="1">
 

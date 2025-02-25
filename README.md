@@ -53,6 +53,18 @@ AcadHomepage
 1. If you change the source code of the website, the livereload server will automatically refresh.
 1. When you finish the modification of your homepage, `commit` your changings and `push` to your remote REPO using `git` command.
 
+---
+NEW
+
+1. `brew install chruby ruby-install`
+2. `ruby-install ruby 3.1.2`
+3. `echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc`
+4. `echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc`
+5. `echo "chruby ruby-3.4.1" >> ~/.zshrc # run 'chruby' to see actual version`
+6. source .zsh and `ruby -v`
+7. `gem install jekyll`
+8. `bundle exec jekyll serve`
+
 # Acknowledges
 
 - AcadHomepage incorporates Font Awesome, which is distributed under the terms of the SIL OFL 1.1 and MIT License.
