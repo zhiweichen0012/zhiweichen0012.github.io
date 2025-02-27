@@ -8,7 +8,7 @@
 
 **Zhiwei Chen**, Yunhang Shen, Liujuan Cao, Shengchuan Zhang, Rongrong Ji
 
-*Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025*
+*IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025*
 
 [[Paper]]() \|
 [[Code]](https://github.com/zhiweichen0012/CDTR)
