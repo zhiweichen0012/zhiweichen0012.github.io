@@ -10,7 +10,7 @@
 
 *IEEE Transactions on Pattern Analysis and Machine Intelligence (**TPAMI**), 2025*
 
-[[Paper]]() \|
+[[Paper]](https://ieeexplore.ieee.org/document/10927651) \|
 [[Code]](https://github.com/zhiweichen0012/CDTR)
 </div>
 </div>
