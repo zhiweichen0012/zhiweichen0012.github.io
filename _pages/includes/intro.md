@@ -1,7 +1,5 @@
-# 👨🏻‍💻 Biography
+# 👨🏻‍💻 个人信息
 
-I am currently an Assistant Professor (Master’s supervisor) at [Jiangxi Normal University](https://www.jxnu.edu.cn/main.htm) (JXNU), China.
+江西师范大学人工智能学院讲师、硕士生导师。主要研究方向包括弱监督学习、多模态学习、开集学习、目标检测与语义分割。在IEEE TPAMI、ICCV、CVPR等中国计算机学会A类会议/期刊及JCR一区期刊发表论文10余篇。主持国家自然科学基金青年科学基金项目（C类）、江西省青年基金项目、江西省职业早期青年科技人才培养项目，参与国家自然科学基金面上项目3项。
 
-I received my Ph.D. degree from Xiamen University in June 2024, advised by Prof. [Rongrong Ji](https://mac.xmu.edu.cn/rrji/) and co-advised by Prof. [Liujuan Cao](https://mac.xmu.edu.cn/ljcao/). Prior to that, I obtained my bachelor's degree in computer science from Jiangxi Normal University in June 2018.
-
-My research interests lie in computer vision and deep learning. During my Ph.D. studies, I focused on weakly supervised learning, particularly in object detection and localization. Currently, I am also exploring open-vocabulary learning and multimodal approaches.
+2024年毕业于厦门大学计算机科学与技术专业，获工学博士学位（导师为国家杰青[纪荣嵘教授](https://mac.xmu.edu.cn/rrji/)；硕博连读）。同年7月加入江西师范大学人工智能学院任讲师。

@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhiwei Chen (陈志威)"
-description              : "Jiangxi Normal University"
+description              : "江西师范大学"
 repository               : "zhiweichen0012/zhiweichen0012.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -21,14 +21,14 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Zhiwei Chen"
+  name             : "陈志威"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "Assistant Professor"
-  location         : "Jiangxi, China"
+  bio              : "讲师（硕导）"
+  location         : # "江西，中国"
   employer         : 
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=2Y3U__oAAAAJ&hl=zh-CN"
-  email            : "zwchen@jxnu.edu.cn"
+  googlescholar    : # "https://scholar.google.com/citations?user=2Y3U__oAAAAJ&hl=zh-CN"
+  email            : # "zwchen@jxnu.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -37,15 +37,15 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : zhiweichen0012 # e.g., "github username"
+  github           : # zhiweichen0012 # e.g., "github username"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         : # e.g., "linkedin username"
-  dblp             : https://dblp.uni-trier.de/pid/87/5992.html # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : https://orcid.org/0000-0002-5474-3630 # e.g., "https://orcid.org/xxxx"
+  dblp             : # https://dblp.uni-trier.de/pid/87/5992.html # e.g., "https://dblp.org/pid/xx/xxxx.html"
+  orcid            : # https://orcid.org/0000-0002-5474-3630 # e.g., "https://orcid.org/xxxx"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
