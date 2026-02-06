@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhiwei Chen (陈志威)"
-description              : "江西师范大学"
+description              : "南昌大学"
 repository               : "zhiweichen0012/zhiweichen0012.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "陈志威"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "讲师（硕导）"
+  bio              : "特聘研究员"
   location         : # "江西，中国"
   employer         : 
   pubmed           : 
