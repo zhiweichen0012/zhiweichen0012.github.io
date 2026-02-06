@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhiwei Chen (陈志威)"
+title                    : "陈志威 @ 南昌大学"
 description              : "南昌大学"
 repository               : "zhiweichen0012/zhiweichen0012.github.io"
 google_scholar_stats_use_cdn : true
