@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Academic homepage of Zhiwei Chen, Research Fellow at Nanchang University."
+    />
+    <meta name="theme-color" content="#17324d" />
+    <title>Zhiwei Chen | Academic Homepage</title>
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="content/site.js" defer></script>
+    <script src="content/profile.js" defer></script>
+    <script src="content/about.js" defer></script>
+    <script src="content/recruitment.js" defer></script>
+    <script src="content/news.js" defer></script>
+    <script src="content/publications.js" defer></script>
+    <script src="content/projects.js" defer></script>
+    <script src="content/students.js" defer></script>
+    <script src="content/teaching.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top">
+          <span class="brand-name" data-i18n="site.university">Nanchang University</span>
+          <span class="brand-school" data-i18n="site.school">School of Artificial Intelligence</span>
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#recruitment" data-i18n="nav.recruitment">Join Us</a>
+          <a href="#about" data-i18n="nav.about">About</a>
+          <a href="#news" data-i18n="nav.news">News</a>
+          <a href="#publications" data-i18n="nav.publications">Publications</a>
+          <a href="#projects" data-i18n="nav.projects">Projects</a>
+          <a href="#students" data-i18n="nav.students">Students</a>
+          <a href="#teaching" data-i18n="nav.teaching">Teaching</a>
+        </nav>
+
+        <div class="header-actions">
+          <button
+            class="language-switch"
+            id="language-switch"
+            type="button"
+            aria-label="切换到中文"
+          >中文</button>
+          <button
+            class="menu-toggle"
+            id="menu-toggle"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-nav"
+          ><span></span><span></span><span></span></button>
+        </div>
+      </div>
+
+      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+        <a href="#recruitment" data-i18n="nav.recruitment">Join Us</a>
+        <a href="#about" data-i18n="nav.about">About</a>
+        <a href="#news" data-i18n="nav.news">News</a>
+        <a href="#publications" data-i18n="nav.publications">Publications</a>
+        <a href="#projects" data-i18n="nav.projects">Projects</a>
+        <a href="#students" data-i18n="nav.students">Students</a>
+        <a href="#teaching" data-i18n="nav.teaching">Teaching</a>
+      </nav>
+    </header>
+
+    <main class="page-layout" id="main">
+      <aside class="profile-column" id="top">
+        <img
+          class="profile-photo"
+          src="assets/profile.JPG"
+          alt="Portrait of Zhiwei Chen"
+          data-i18n-alt="profile.alt"
+        />
+        <h1 id="profile-name">Zhiwei Chen</h1>
+        <p class="chinese-name">陈志威</p>
+        <p class="profile-title" id="profile-title">
+          Research Fellow · Master’s Supervisor
+        </p>
+        <p class="profile-unit" id="profile-unit">
+          School of Artificial Intelligence, Nanchang University
+        </p>
+
+        <dl class="profile-details">
+          <div>
+            <dt data-i18n="profile.emailLabel">Email</dt>
+            <dd><a id="profile-email" href="mailto:zhiweichen@ncu.edu.cn">zhiweichen@ncu.edu.cn</a></dd>
+          </div>
+          <div>
+            <dt data-i18n="profile.degreeLabel">Degree</dt>
+            <dd id="profile-degree">Ph.D., Xiamen University, 2024</dd>
+          </div>
+          <div>
+            <dt data-i18n="profile.linksLabel">Profiles</dt>
+            <dd>
+              <a id="scholar-link" href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+              <span> · </span>
+              <a id="github-link" href="https://github.com/zhiweichen0012" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </dd>
+          </div>
+        </dl>
+      </aside>
+
+      <div class="content-column">
+        <section class="recruitment" id="recruitment" aria-labelledby="recruitment-title">
+          <div class="recruitment-heading">
+            <p class="section-eyebrow" id="recruitment-eyebrow">Prospective Students</p>
+            <h2 id="recruitment-title">Open Positions</h2>
+          </div>
+          <dl class="recruitment-details" id="recruitment-details"></dl>
+          <a id="recruitment-link" href="mailto:zhiweichen@ncu.edu.cn">Contact by email →</a>
+        </section>
+
+        <section class="academic-section" id="about">
+          <h2 id="about-title">Biography</h2>
+          <div class="section-body prose" id="about-content"></div>
+        </section>
+
+        <section class="academic-section" id="news">
+          <h2 id="news-title">News</h2>
+          <div class="section-body">
+            <ul class="news-list" id="news-list"></ul>
+          </div>
+        </section>
+
+        <section class="academic-section" id="publications">
+          <div class="section-heading-row">
+            <h2 id="publications-title">Publications</h2>
+            <a href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          </div>
+          <div class="section-body">
+            <ol class="publication-list" id="publication-list"></ol>
+          </div>
+        </section>
+
+        <section class="academic-section" id="projects">
+          <h2 id="projects-title">Research Projects</h2>
+          <div class="section-body">
+            <ul class="project-list" id="project-list"></ul>
+          </div>
+        </section>
+
+        <section class="academic-section" id="students">
+          <h2 id="students-title">Students</h2>
+          <div class="section-body">
+            <ul class="student-list" id="student-list"></ul>
+          </div>
+        </section>
+
+        <section class="academic-section" id="teaching">
+          <h2 id="teaching-title">Teaching</h2>
+          <div class="section-body">
+            <ul class="plain-list" id="teaching-list"></ul>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> <span id="footer-name">Zhiwei Chen</span></span>
+      <span class="last-updated">
+        <span data-i18n="footer.updated">Last updated</span>:
+        <time id="last-updated" datetime="2026-06-18">June 18, 2026</time>
+      </span>
+      <a href="#top" data-i18n="footer.top">Back to top ↑</a>
+    </footer>
+  </body>
+</html>
