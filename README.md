@@ -24,16 +24,25 @@ Routine content is stored in separate files under `content/`:
 - `news.js` — news
 - `publications.js` — publications
 - `projects.js` — research projects
-- `students.js` — supervised students
+- `students.js` — academic team members
 - `teaching.js` — courses
 - `site.js` — last updated date
 
 Each bilingual field uses `{ en: "English", zh: "中文" }`. Shared navigation and
 interface labels are in `script.js`. Page structure is in `index.html`.
 
-For each student, maintain `name`, `level`, `research`, `cohort`, and `url`.
-Leave `url` as an empty string when the student does not have a public homepage.
-When `url` is present, the student's name automatically becomes an external link.
+Students are grouped in `content/students.js` under `phd`, `master`, and
+`undergraduate`. Empty groups are hidden automatically. For each student, maintain:
+
+- `name` — bilingual name
+- `level` — degree level and cohort
+- `research` — bilingual research area
+- `email` — email address
+- `photo` — path such as `assets/students/name.jpg`
+- `url` — optional personal homepage
+
+Leave `photo`, `email`, or `url` empty when unavailable. A missing photo uses an
+initials placeholder; a non-empty `url` makes the student's name a link.
 
 Update the `lastUpdated` field in `content/site.js` whenever content changes.
 The footer formats this date automatically for English and Chinese.

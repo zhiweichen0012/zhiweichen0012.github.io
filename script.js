@@ -8,7 +8,7 @@ const interfaceText = {
     "nav.news": "News",
     "nav.publications": "Publications",
     "nav.projects": "Projects",
-    "nav.students": "Students",
+    "nav.students": "Academic Team",
     "nav.teaching": "Teaching",
     "profile.alt": "Portrait of Zhiwei Chen",
     "profile.emailLabel": "Email",
@@ -28,7 +28,7 @@ const interfaceText = {
     "nav.news": "近期动态",
     "nav.publications": "科研论文",
     "nav.projects": "科研项目",
-    "nav.students": "指导学生",
+    "nav.students": "学术团队",
     "nav.teaching": "教学课程",
     "profile.alt": "陈志威个人照片",
     "profile.emailLabel": "邮箱",
@@ -136,19 +136,52 @@ function renderStudents() {
   const students = window.siteContent.students;
   setText("#students-title", bilingual(students.title));
 
-  document.querySelector("#student-list").innerHTML = students.items
-    .map((student) => {
-      const name = bilingual(student.name);
-      const nameMarkup = student.url
-        ? `<a href="${student.url}" target="_blank" rel="noopener noreferrer">${name}</a>`
-        : `<span>${name}</span>`;
-      return `
-        <li>
-          <strong>${nameMarkup}</strong>
-          <span>${bilingual(student.level)} · ${bilingual(student.research)} · ${bilingual(student.cohort)}</span>
-        </li>`;
-    })
+  document.querySelector("#student-groups").innerHTML = students.groups
+    .filter((group) => group.students.length > 0)
+    .map((group) => `
+      <section class="student-group" data-group="${group.key}">
+        <h3>${bilingual(group.title)}</h3>
+        <div class="student-grid">
+          ${group.students.map(renderStudentCard).join("")}
+        </div>
+      </section>`)
     .join("");
+}
+
+function renderStudentCard(student) {
+  const name = bilingual(student.name);
+  const initials = name
+    .split(/\s+/)
+    .map((part) => part.charAt(0))
+    .join("")
+    .slice(0, 2)
+    .toUpperCase();
+  const photo = student.photo
+    ? `<img class="student-photo" src="${student.photo}" alt="${name}" loading="lazy" />`
+    : `<div class="student-photo student-photo-placeholder" aria-hidden="true">${initials}</div>`;
+  const nameMarkup = student.url
+    ? `<a href="${student.url}" target="_blank" rel="noopener noreferrer">${name}</a>`
+    : name;
+  const emailMarkup = student.email
+    ? `<a href="mailto:${student.email}">${student.email}</a>`
+    : `<span aria-label="${currentLanguage === "zh" ? "邮箱暂未提供" : "Email not provided"}">—</span>`;
+
+  return `
+    <article class="student-card">
+      ${photo}
+      <div class="student-card-body">
+        <h4>${nameMarkup}</h4>
+        <p class="student-level">${bilingual(student.level)}</p>
+        <dl>
+          <div>
+            <dd>${bilingual(student.research)}</dd>
+          </div>
+          <div>
+            <dd>${emailMarkup}</dd>
+          </div>
+        </dl>
+      </div>
+    </article>`;
 }
 
 function renderTeaching() {

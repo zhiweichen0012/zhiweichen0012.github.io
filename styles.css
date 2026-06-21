@@ -26,7 +26,7 @@ body {
   background: var(--background);
   font-family: var(--sans);
   font-size: 17px;
-  line-height: 1.74;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -174,18 +174,11 @@ button { font: inherit; }
 }
 
 .profile-column h1 {
-  margin: 17px 0 0;
+  margin: 17px 0 7px 0;
   color: var(--navy);
   font-family: var(--serif);
   font-size: 31px;
   line-height: 1.2;
-}
-
-.chinese-name {
-  margin: 1px 0 12px;
-  color: var(--muted);
-  font-family: var(--serif);
-  font-size: 18px;
 }
 
 .profile-title {
@@ -333,7 +326,7 @@ html[lang="zh-CN"] .section-eyebrow {
 .news-list,
 .project-list,
 .plain-list,
-.student-list {
+.student-groups {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -427,15 +420,83 @@ html[lang="zh-CN"] .section-eyebrow {
   content: "▪";
 }
 
-.student-list li {
-  padding: 8px 0;
+.student-group + .student-group {
+  margin-top: 32px;
 }
 
-.student-list li:first-child { padding-top: 0; }
-.student-list strong, .student-list strong > span, .student-list span { display: block; }
-.student-list strong { color: var(--navy); font-family: var(--serif); font-size: 17px; }
-.student-list strong a { color: var(--navy); }
-.student-list > li > span { color: var(--muted); font-size: 14.5px; }
+.student-group > h3 {
+  margin: 0 0 16px;
+  color: var(--navy);
+  font-family: var(--serif);
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.student-card {
+  display: grid;
+  min-width: 0;
+  padding: 16px;
+  border: 1px solid var(--line);
+  background: #fff;
+  grid-template-columns: 92px minmax(0, 1fr);
+  gap: 16px;
+}
+
+.student-photo {
+  display: block;
+  width: 92px;
+  height: 112px;
+  object-fit: cover;
+  object-position: center top;
+  background: var(--navy-soft);
+}
+
+.student-photo-placeholder {
+  display: grid;
+  place-items: center;
+  color: var(--navy);
+  font-family: var(--serif);
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.student-card h4 {
+  margin: 0;
+  color: var(--navy);
+  font-family: var(--serif);
+  font-size: 19px;
+  line-height: 1.3;
+}
+
+.student-card h4 a {
+  color: inherit;
+}
+
+.student-level {
+  margin: 2px 0 11px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.student-card dl {
+  margin: 0;
+}
+
+.student-card dl div {
+  margin-top: 6px;
+}
+
+.student-card dd {
+  overflow-wrap: anywhere;
+  margin: 0;
+  font-size: 14px;
+}
 
 footer {
   display: flex;
@@ -500,7 +561,6 @@ footer a { color: var(--muted); }
   }
 
   .profile-column h1 { margin-top: 0; font-size: 24px; }
-  .chinese-name { margin-bottom: 5px; }
   .profile-title, .profile-unit { font-size: 12px; }
   .profile-details { margin-top: 15px; grid-column: 1 / -1; }
 
@@ -519,11 +579,26 @@ footer a { color: var(--muted); }
   }
 
   .prose p { text-align: left; }
+
+  .student-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 440px) {
   .news-list li { grid-template-columns: 65px 1fr; }
   .plain-list { grid-template-columns: 1fr; }
   .project-list li { grid-template-columns: 1fr; gap: 2px; }
+
+  .student-card {
+    grid-template-columns: 76px minmax(0, 1fr);
+    gap: 13px;
+  }
+
+  .student-photo {
+    width: 76px;
+    height: 94px;
+  }
+
   footer { align-items: flex-start; flex-direction: column; justify-content: center; gap: 2px; }
 }
