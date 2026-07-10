@@ -3,6 +3,7 @@ window.siteContent = window.siteContent || {};
 window.siteContent.news = {
   title: { en: "News", zh: "近期动态" },
   items: [
+    { date: "2026.07", en: "One paper was accepted by ACM MM 2026.", zh: "一篇论文被 ACM MM 2026 接收。" },
     { date: "2026.06", en: "One paper was accepted by ECCV 2026.", zh: "一篇论文被 ECCV 2026 接收。" },
     { date: "2026.03", en: "One paper was accepted by ICME 2026.", zh: "一篇论文被 ICME 2026 接收。" },
     { date: "2026.02", en: "Two papers were accepted by CVPR 2026.", zh: "两篇论文被 CVPR 2026 接收。" },
