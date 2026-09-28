@@ -7,7 +7,7 @@ window.siteContent.profile = {
     zh: "特聘研究员 · 硕士研究生导师",
   },
   unit: {
-    en: "School of Artificial Intelligence Nanchang University",
+    en: "School of Artificial Intelligence, Nanchang University",
     zh: "南昌大学人工智能学院",
   },
   degree: {

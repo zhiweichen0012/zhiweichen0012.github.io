@@ -1,7 +1,7 @@
 window.siteContent = window.siteContent || {};
 
 window.siteContent.projects = {
-  title: { en: "Research Projects", zh: "科研项目" },
+  title: { en: "Selected Projects", zh: "代表性项目" },
   items: [
     {
       period: "2026–2028",

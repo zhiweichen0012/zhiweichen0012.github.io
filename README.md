@@ -32,7 +32,9 @@ Each bilingual field uses `{ en: "English", zh: "中文" }`. Shared navigation a
 interface labels are in `script.js`. Page structure is in `index.html`.
 
 Students are grouped in `content/students.js` under `phd`, `master`, and
-`undergraduate`. Empty groups are hidden automatically. For each student, maintain:
+`undergraduate`. Empty groups are hidden automatically. Each group shows up to
+six members initially, with a button to reveal the rest when the group grows.
+For each student, maintain:
 
 - `name` — bilingual name
 - `level` — degree level and cohort
@@ -47,11 +49,12 @@ initials placeholder; a non-empty `url` makes the student's name a link.
 Update the `lastUpdated` field in `content/site.js` whenever content changes.
 The footer formats this date automatically for English and Chinese.
 
-The site always opens in English. The language button changes the current page
-only and does not store the selection.
+The site opens in Chinese for its main student audience. The language button
+switches the current page to English and does not store the selection.
 
-The public section order is defined in `index.html`: recruitment, biography,
-news, publications, projects, students, and teaching.
+The public section order is defined in `index.html`: profile, recent news,
+biography (including research interests), recruitment, publications, projects,
+team, and teaching.
 
 ## Publish on GitHub Pages
 

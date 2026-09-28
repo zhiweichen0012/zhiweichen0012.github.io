@@ -1,174 +1,124 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Academic homepage of Zhiwei Chen, Research Fellow at Nanchang University."
-    />
-    <meta name="theme-color" content="#17324d" />
-    <title>Zhiwei Chen | Academic Homepage</title>
-    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="content/site.js" defer></script>
-    <script src="content/profile.js" defer></script>
-    <script src="content/about.js" defer></script>
-    <script src="content/recruitment.js" defer></script>
-    <script src="content/news.js" defer></script>
-    <script src="content/publications.js" defer></script>
-    <script src="content/projects.js" defer></script>
-    <script src="content/students.js" defer></script>
-    <script src="content/teaching.js" defer></script>
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
-
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="#top">
-          <span class="brand-name" data-i18n="site.university">Nanchang University</span>
-          <span class="brand-school" data-i18n="site.school">School of Artificial Intelligence</span>
-        </a>
-
-        <nav class="desktop-nav" aria-label="Primary navigation">
-          <a href="#recruitment" data-i18n="nav.recruitment">Join Us</a>
-          <a href="#about" data-i18n="nav.about">About</a>
-          <a href="#news" data-i18n="nav.news">News</a>
-          <a href="#publications" data-i18n="nav.publications">Publications</a>
-          <a href="#projects" data-i18n="nav.projects">Projects</a>
-          <a href="#students" data-i18n="nav.students">Academic Team</a>
-          <a href="#teaching" data-i18n="nav.teaching">Teaching</a>
-        </nav>
-
-        <div class="header-actions">
-          <button
-            class="language-switch"
-            id="language-switch"
-            type="button"
-            aria-label="切换到中文"
-          >中文</button>
-          <button
-            class="menu-toggle"
-            id="menu-toggle"
-            type="button"
-            aria-label="Open menu"
-            aria-expanded="false"
-            aria-controls="mobile-nav"
-          ><span></span><span></span><span></span></button>
-        </div>
-      </div>
-
-      <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
-        <a href="#recruitment" data-i18n="nav.recruitment">Join Us</a>
-        <a href="#about" data-i18n="nav.about">About</a>
-        <a href="#news" data-i18n="nav.news">News</a>
-        <a href="#publications" data-i18n="nav.publications">Publications</a>
-        <a href="#projects" data-i18n="nav.projects">Projects</a>
-        <a href="#students" data-i18n="nav.students">Academic Team</a>
-        <a href="#teaching" data-i18n="nav.teaching">Teaching</a>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="陈志威，南昌大学人工智能学院特聘研究员、硕士研究生导师。研究方向：计算机视觉、弱监督视觉感知、多模态学习与具身智能。" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="陈志威 | 学术主页" />
+  <meta property="og:description" content="南昌大学人工智能学院 · 计算机视觉与弱监督视觉感知" />
+  <meta property="og:image" content="https://zwchen.tech/assets/profile.JPG" />
+  <title>元矢</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="content/site.js" defer></script>
+  <script src="content/profile.js" defer></script>
+  <script src="content/about.js" defer></script>
+  <script src="content/recruitment.js" defer></script>
+  <script src="content/news.js" defer></script>
+  <script src="content/publications.js" defer></script>
+  <script src="content/projects.js" defer></script>
+  <script src="content/students.js" defer></script>
+  <script src="content/teaching.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">跳转到主要内容</a>
+  <header class="site-header" id="top">
+    <div class="header-inner container">
+      <a class="brand" href="#top" aria-label="陈志威 — 首页"><span id="brand-name">陈志威</span><small data-i18n="site.university">南昌大学</small></a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#news" data-i18n="nav.news">动态</a>
+        <a href="#about" data-i18n="nav.about">简介</a>
+        <a href="#recruitment" data-i18n="nav.recruitment">招生</a>
+        <a href="#publications" data-i18n="nav.publications">论文</a>
+        <a href="#projects" data-i18n="nav.projects">项目</a>
+        <a href="#students" data-i18n="nav.students">团队</a>
       </nav>
-    </header>
-
-    <main class="page-layout" id="main">
-      <aside class="profile-column" id="top">
-        <img
-          class="profile-photo"
-          src="assets/profile.JPG"
-          alt="Portrait of Zhiwei Chen"
-          data-i18n-alt="profile.alt"
-        />
-        <h1 id="profile-name">Zhiwei Chen</h1>
-        <p class="profile-title" id="profile-title">
-          Research Fellow · Master’s Supervisor
-        </p>
-        <p class="profile-unit" id="profile-unit">
-          School of Artificial Intelligence, Nanchang University
-        </p>
-
-        <dl class="profile-details">
-          <div>
-            <dt data-i18n="profile.emailLabel">Email</dt>
-            <dd><a id="profile-email" href="mailto:zhiweichen@ncu.edu.cn">zhiweichen@ncu.edu.cn</a></dd>
-          </div>
-          <div>
-            <dt data-i18n="profile.degreeLabel">Degree</dt>
-            <dd id="profile-degree">Ph.D., Xiamen University, 2024</dd>
-          </div>
-          <div>
-            <dt data-i18n="profile.linksLabel">Profiles</dt>
-            <dd>
-              <a id="scholar-link" href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-              <span> · </span>
-              <a id="github-link" href="https://github.com/zhiweichen0012" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </dd>
-          </div>
-        </dl>
-      </aside>
-
-      <div class="content-column">
-        <section class="recruitment" id="recruitment" aria-labelledby="recruitment-title">
-          <div class="recruitment-heading">
-            <p class="section-eyebrow" id="recruitment-eyebrow">Prospective Students</p>
-            <h2 id="recruitment-title">Open Positions</h2>
-          </div>
-          <dl class="recruitment-details" id="recruitment-details"></dl>
-          <a id="recruitment-link" href="mailto:zhiweichen@ncu.edu.cn">Contact by email →</a>
-        </section>
-
-        <section class="academic-section" id="about">
-          <h2 id="about-title">Biography</h2>
-          <div class="section-body prose" id="about-content"></div>
-        </section>
-
-        <section class="academic-section" id="news">
-          <h2 id="news-title">News</h2>
-          <div class="section-body">
-            <ul class="news-list" id="news-list"></ul>
-          </div>
-        </section>
-
-        <section class="academic-section" id="publications">
-          <div class="section-heading-row">
-            <h2 id="publications-title">Publications</h2>
-            <a href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
-          </div>
-          <div class="section-body">
-            <ol class="publication-list" id="publication-list"></ol>
-          </div>
-        </section>
-
-        <section class="academic-section" id="projects">
-          <h2 id="projects-title">Research Projects</h2>
-          <div class="section-body">
-            <ul class="project-list" id="project-list"></ul>
-          </div>
-        </section>
-
-        <section class="academic-section" id="students">
-          <h2 id="students-title">Academic Team</h2>
-          <div class="section-body">
-            <div class="student-groups" id="student-groups"></div>
-          </div>
-        </section>
-
-        <section class="academic-section" id="teaching">
-          <h2 id="teaching-title">Teaching</h2>
-          <div class="section-body">
-            <ul class="plain-list" id="teaching-list"></ul>
-          </div>
-        </section>
+      <div class="header-actions">
+        <button class="language-switch" id="language-switch" type="button" aria-label="Switch to English">English</button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
       </div>
-    </main>
+    </div>
+    <nav class="mobile-nav container" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#news" data-i18n="nav.news">动态</a>
+      <a href="#about" data-i18n="nav.about">简介</a>
+      <a href="#recruitment" data-i18n="nav.recruitment">招生</a>
+      <a href="#publications" data-i18n="nav.publications">论文</a>
+      <a href="#projects" data-i18n="nav.projects">项目</a>
+      <a href="#students" data-i18n="nav.students">团队</a>
+      <a href="#teaching" data-i18n="nav.teaching">教学</a>
+    </nav>
+  </header>
 
-    <footer>
-      <span>© <span id="year"></span> <span id="footer-name">Zhiwei Chen</span></span>
-      <span class="last-updated">
-        <span data-i18n="footer.updated">Last updated</span>:
-        <time id="last-updated" datetime="2026-06-21">June 21, 2026</time>
-      </span>
-      <a href="#top" data-i18n="footer.top">Back to top ↑</a>
-    </footer>
-  </body>
+  <main class="container" id="main">
+    <section class="profile" aria-labelledby="profile-name">
+      <img class="profile-photo" src="assets/profile.JPG" alt="陈志威个人照片" data-i18n-alt="profile.alt" fetchpriority="high" />
+      <div class="profile-body">
+        <h1 id="profile-name">陈志威</h1>
+        <p class="name-en" id="profile-name-en">Zhiwei Chen</p>
+        <p class="profile-title" id="profile-title">特聘研究员 · 硕士研究生导师</p>
+        <p class="profile-unit" id="profile-unit">南昌大学人工智能学院</p>
+        <p class="profile-degree" id="profile-degree">工学博士，厦门大学</p>
+        <p class="profile-summary" data-i18n="hero.intro">研究方向包括计算机视觉、弱监督视觉感知、多模态学习。</p>
+        <div class="profile-links">
+          <a id="profile-email" href="mailto:zhiweichen@ncu.edu.cn">zhiweichen@ncu.edu.cn</a>
+          <a id="scholar-link" href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          <a id="github-link" href="https://github.com/zhiweichen0012" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+        <a class="profile-admission" href="#recruitment" data-i18n="profile.admissions">硕士研究生、本科生招生与科研指导 →</a>
+      </div>
+    </section>
+
+    <section class="content-section" id="news">
+      <h2 id="news-title">近期动态</h2>
+      <div class="section-content">
+        <ul class="news-list" id="news-list"></ul>
+        <button class="show-more" id="news-toggle" type="button" aria-expanded="false">查看全部动态</button>
+      </div>
+    </section>
+
+    <section class="content-section" id="about">
+      <h2 id="about-title">个人简介</h2>
+      <div class="section-content prose" id="about-content"></div>
+    </section>
+
+    <section class="content-section" id="recruitment" aria-labelledby="recruitment-title">
+      <h2 id="recruitment-title">招生与学生培养</h2>
+      <div class="section-content recruitment-content">
+        <p class="recruitment-intro" data-i18n="recruitment.intro">欢迎对计算机视觉与人工智能研究感兴趣的同学联系。</p>
+        <dl id="recruitment-details"></dl>
+        <p class="recruitment-note" data-i18n="recruitment.emailHint">来信可简要介绍研究兴趣，并附上简历。</p>
+        <a id="recruitment-link" href="mailto:zhiweichen@ncu.edu.cn">邮件联系 →</a>
+        <span class="sr-only" id="recruitment-eyebrow">招生信息</span>
+      </div>
+    </section>
+
+    <section class="content-section" id="publications">
+      <h2 id="publications-title">代表性科研论文</h2>
+      <div class="section-content">
+        <p class="publication-source"><a id="publication-scholar" href="https://scholar.google.com/citations?user=2Y3U__oAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a></p>
+        <ol class="publication-list" id="publication-list"></ol>
+      </div>
+    </section>
+
+    <section class="content-section" id="projects">
+      <h2 id="projects-title">科研项目</h2>
+      <div class="section-content"><ul class="project-list" id="project-list"></ul></div>
+    </section>
+
+    <section class="content-section" id="students">
+      <h2 id="students-title">学术团队</h2>
+      <div class="section-content" id="student-groups"></div>
+    </section>
+
+    <section class="content-section" id="teaching">
+      <h2 id="teaching-title">教学课程</h2>
+      <div class="section-content"><ul class="teaching-list" id="teaching-list"></ul></div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><span>© <span id="year"></span> <span id="footer-name">陈志威</span> · <span data-i18n="site.university">南昌大学</span></span><span><span data-i18n="footer.updated">更新于</span> <time id="last-updated" datetime="2026-09-28">2026年9月28日</time></span><a href="#top" data-i18n="footer.top">返回顶部 ↑</a></div></footer>
+</body>
 </html>
