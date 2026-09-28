@@ -6,7 +6,7 @@ const interfaceText = {
     "nav.projects": "项目", "nav.students": "团队", "nav.recruitment": "招生",
     "nav.news": "动态", "nav.teaching": "教学",
     "profile.alt": "陈志威个人照片",
-    "hero.intro": "研究方向包括计算机视觉、弱监督视觉感知、多模态学习与具身智能。",
+    "hero.intro": "研究方向包括计算机视觉、弱监督视觉感知与多模态学习。",
     "profile.admissions": "硕士研究生、本科生招生与科研指导 →",
     "recruitment.intro": "欢迎对计算机视觉与人工智能研究感兴趣的同学联系。",
     "recruitment.emailHint": "来信可简要介绍研究兴趣，并附上简历。",
@@ -21,7 +21,7 @@ const interfaceText = {
     "nav.projects": "Projects", "nav.students": "People", "nav.recruitment": "Students",
     "nav.news": "News", "nav.teaching": "Teaching",
     "profile.alt": "Portrait of Zhiwei Chen",
-    "hero.intro": "My research interests include computer vision, weakly supervised visual perception, multimodal learning, and embodied intelligence.",
+    "hero.intro": "My research interests include computer vision, weakly supervised visual perception, and multimodal learning.",
     "profile.admissions": "Master’s and undergraduate research opportunities →",
     "recruitment.intro": "Students interested in computer vision and artificial intelligence are welcome to get in touch.",
     "recruitment.emailHint": "Please include a short description of your interests and your CV.",
@@ -138,7 +138,7 @@ function setLanguage(language) {
   currentLanguage = interfaceText[language] ? language : "zh";
   document.documentElement.lang = currentLanguage === "zh" ? "zh-CN" : "en";
   document.title = currentLanguage === "zh" ? "陈志威 | 学术主页" : "Zhiwei Chen | Academic Homepage";
-  document.querySelector('meta[name="description"]').content = currentLanguage === "zh" ? "陈志威，南昌大学人工智能学院特聘研究员、硕士研究生导师。研究方向包括计算机视觉、弱监督视觉感知、多模态学习与具身智能。" : "Zhiwei Chen is a Research Fellow and master’s supervisor at Nanchang University, working on computer vision, weakly supervised perception, multimodal learning and embodied intelligence.";
+  document.querySelector('meta[name="description"]').content = currentLanguage === "zh" ? "陈志威，南昌大学人工智能学院特聘研究员、硕士研究生导师。研究方向包括计算机视觉、弱监督视觉感知、多模态学习。" : "Zhiwei Chen is a Research Fellow and master’s supervisor at Nanchang University, working on computer vision, weakly supervised perception and multimodal learning.";
   document.querySelectorAll("[data-i18n]").forEach((element) => { const value = interfaceText[currentLanguage][element.dataset.i18n]; if (value) { element.textContent = value; } });
   document.querySelectorAll("[data-i18n-alt]").forEach((element) => { const value = interfaceText[currentLanguage][element.dataset.i18nAlt]; if (value) element.alt = value; });
   languageSwitch.textContent = currentLanguage === "zh" ? "English" : "中文";
