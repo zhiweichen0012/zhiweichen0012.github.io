@@ -28,6 +28,22 @@ window.siteContent.students = {
           photo: "assets/teamS_pho/2024zsm.jpg",
           url: "",
         },
+        {
+          name: { en: "Yongkang Liu", zh: "刘永康" },
+          level: { en: "Class of 2026", zh: "2026级" },
+          research: { en: "Active learning", zh: "主动学习" },
+          email: "kangsir@email.ncu.edu.cn",
+          photo: "assets/teamS_pho/2026lyk.jpeg",
+          url: "",
+        },
+        {
+          name: { en: "Baiqi Zhang", zh: "章百琪" },
+          level: { en: "Class of 2025", zh: "2025级" },
+          research: { en: "Open vocabulary", zh: "开放词汇" },
+          email: "baki_z@163.com",
+          photo: "assets/teamS_pho/2026zbq.jpg",
+          url: "https://me.xel7.cn",
+        }
       ],
     },
     {

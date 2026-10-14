@@ -87,7 +87,7 @@ function renderNews() {
 function renderPublications() {
   const publications = window.siteContent.publications;
   setText("#publications-title", bilingual(publications.title));
-  document.querySelector("#publication-list").innerHTML = [...publications.items].sort((a, b) => Number(b.year) - Number(a.year)).map((paper) => `<li><div class="paper-body"><p class="paper-title">${paper.title}</p><p class="paper-authors">${paper.authors}</p><p class="venue">${paper.venue} · ${paper.shortVenue}</p></div><div class="paper-meta"><span class="paper-year">${paper.year}</span><span class="paper-tag">${paper.level}</span></div></li>`).join("");
+  document.querySelector("#publication-list").innerHTML = [...publications.items].map((paper) => `<li><div class="paper-body"><p class="paper-title">${paper.title}</p><p class="paper-authors">${paper.authors}</p><p class="venue">${paper.venue} · ${paper.shortVenue}</p></div><div class="paper-meta"><span class="paper-year">${paper.year}</span><span class="paper-tag">${paper.level}</span></div></li>`).join("");
 }
 
 function renderProjects() {
