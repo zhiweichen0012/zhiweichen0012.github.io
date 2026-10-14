@@ -38,7 +38,7 @@ window.siteContent.students = {
         },
         {
           name: { en: "Baiqi Zhang", zh: "章百琪" },
-          level: { en: "Class of 2025", zh: "2025级" },
+          level: { en: "Class of 2025", zh: "2026级" },
           research: { en: "Open vocabulary", zh: "开放词汇" },
           email: "baki_z@163.com",
           photo: "assets/teamS_pho/2026zbq.jpg",
